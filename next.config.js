@@ -10,7 +10,7 @@ const nextConfig = {
   },
   // Otimizações de performance
   reactStrictMode: true,
-  swcMinify: true,
+
   // Configurações de segurança
   poweredByHeader: false,
   // Otimização de build
