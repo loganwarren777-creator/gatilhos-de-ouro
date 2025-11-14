@@ -4,8 +4,7 @@ import Stripe from 'stripe';
 // Inicializar Stripe com sua chave secreta
 // Em produção, use process.env.STRIPE_SECRET_KEY
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
-  apiVersion:'2025-10-29.clover', // A versão corrigida
-  ,
+  apiVersion: '2024-12-18.acacia',
 });
 
 export async function POST(request: NextRequest) {
